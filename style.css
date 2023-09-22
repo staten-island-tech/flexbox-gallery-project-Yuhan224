@@ -15,3 +15,13 @@ body {
     margin-right:auto;
     text-align: center;
 }
+.card1 {
+    width: 70vh;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid ridge;
+    border-radius: 25px;
+}
+
