@@ -11,17 +11,45 @@ body {
     width: 1200px;
     height: 300px;
     background-position: center;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
-.card1 {
-    width: 70vh;
-    height: 85vh;
+
+.information {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-style: solid ridge;
-    border-radius: 25px;
 }
 
+#cards {
+    width: 90vh;
+    height: 123vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    margin-bottom: 100px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-img {
+    width: 345px;
+    height: 70px;
+    margin: auto;
+    
+}
+
+.legend-info {
+    font-size: 1.3rem;
+}
+
+div {
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+
+}
