@@ -36,7 +36,7 @@ body {
     justify-content: space-around;
     flex-direction: column;
     display: flex;
-
+    transition: ease 2s;
 }
 
 .card-img {
@@ -53,6 +53,11 @@ body {
 .card-title {
     font-size: 1.2rem;
 }
+
+.cards:hover {
+background-color: red;
+}
+
 
 
 div {
