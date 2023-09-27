@@ -3,6 +3,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Coming Soon', cursive;
+
 }
 
 .legendary-name {
@@ -47,11 +49,11 @@ body {
 }
 
 .legend-info {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
 }
 
 .card-title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .cards:hover {
