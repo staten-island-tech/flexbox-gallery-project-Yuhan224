@@ -5,7 +5,9 @@ body {
     padding: 0;
 }
 
-
+.legendary-name {
+    text-align: center;
+}
 
 .background {
     background-image: url(img/LegendaryPKMN.png);
@@ -16,9 +18,14 @@ body {
     background-position: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
-
-#cards {
+.cards {
 
     width: 50vh;
     height: 70vh;
@@ -34,7 +41,7 @@ body {
 
 .card-img {
     width: 320x;
-    height: 450px;
+    height: 300px;
     margin: auto;
 
 }
