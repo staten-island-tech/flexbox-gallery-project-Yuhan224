@@ -40,8 +40,22 @@ body {
     flex-direction: column;
     display: flex;
     transition: ease 2s;
+    transition: transform 0.2s ease-in-out;
    
 }
+@media screen and (max-width: 1200px) {
+    .cards {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .cards {
+        width: 100%;
+    }
+}
+
+
 
 .card-img {
     width: 320x;
@@ -61,6 +75,7 @@ body {
 
 .cards:hover {
 background-color: red;
+transform: scale(1.05);
 }
 
 
