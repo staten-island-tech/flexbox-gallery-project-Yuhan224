@@ -88,7 +88,7 @@ border-radius: 50px;
 }
 
 .card-img :hover {
-    transform: scale(1.1);
+    transform: scale(2.1);
 }
 
 div {
