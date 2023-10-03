@@ -63,7 +63,7 @@ body {
 
 .card-img {
     width: 320x;
-    height: 300px;
+    height: 400px;
     margin: auto;
     transition: transform 0.2s ease-in-out;
 
@@ -83,8 +83,17 @@ background-color: red;
 transform: scale(1.05);
 box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.5);
 border-radius: 50px;
+animation: bob 0.5s infinite alternate;
 
 
+}
+@keyframes bob{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
 }
 
 .card-img :hover {
