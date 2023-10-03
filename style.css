@@ -80,10 +80,11 @@ body {
 
 .cards:hover {
 background-color: red;
-transform: scale(1.05);
 box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.5);
 border-radius: 50px;
 animation: bob 0.5s infinite alternate;
+transition: all 0.4s;
+transform: scale(2);
 
 
 }
@@ -96,9 +97,7 @@ animation: bob 0.5s infinite alternate;
     }
 }
 
-.card-img :hover {
-    transform: scale(2.1);
-}
+
 
 div {
     border-radius: 50px;
