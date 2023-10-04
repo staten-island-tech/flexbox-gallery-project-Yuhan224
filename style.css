@@ -1,114 +1,108 @@
 body {
-    font-size: 10px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
-    font-family: 'Coming Soon', cursive;
-
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Coming Soon", cursive;
 }
 
 .legendary-name {
-    text-align: center;
-    position: relative;
-    animation-name: changing-colors;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-   
+  text-align: center;
+  position: relative;
+  animation-name: changing-colors;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes changing-colors {
-    from {color: #0dd45a;}
-    to {color: #1b27b2;}
- }
+  from {
+    color: #0dd45a;
+  }
+
+  to {
+    color: #1b27b2;
+  }
+}
+
 .background {
-    background-image: url(img/LegendaryPKMN.png);
-    background-repeat: no-repeat;
-    background-size: 800px;
-    width: 1200px;
-    height: 300px;
-    background-position: center;
+  background-image: url(img/LegendaryPKMN.png);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  width: 1200px;
+  height: 300px;
+  background-position: center;
+  margin: auto;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap:wrap;
-
- 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .cards {
-
-    width: 50vh;
-    height: 70vh;
-    border-style: solid;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    border-style: solid ridge;
-    justify-content: space-around;
-    flex-direction: column;
-    display: flex;
-    transition: ease 2s;
-   
+  width: 50vh;
+  height: 70vh;
+  border-style: solid;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border-style: solid ridge;
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
+  transition: ease 2s;
 }
 
-
-
 .card-img {
-    width: 320x;
-    height: 400px;
-    margin: auto;
-    transition: transform 0.2s ease-in-out;
-
-
+  width: 320x;
+  height: 400px;
+  margin: auto;
+  transition: transform 0.2s ease-in-out;
 }
 
 .legend-info {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .card-title {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .cards:hover {
-background-color: red;
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.5);
-border-radius: 50px;
-animation: bob 0.5s infinite alternate;
-transition: all 0.4s;
-
-
-
-}
-@keyframes bob{
-    0%{
-        transform: translateY(0);
-    }
-    100%{
-        transform: translateY(-10px);
-    }
+  background-color: red;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  animation: bob 0.5s infinite alternate;
+  transition: all 0.4s;
 }
 
+@keyframes bob {
+  0% {
+    transform: translateY(0);
+  }
 
-
-@media screen and (max-width:1200px) {
-    .agent-card{
-        width:40%;
-    }
+  100% {
+    transform: translateY(-10px);
+  }
 }
-@media screen and (max-width:800px) {
-    .agent-card{
-        width:100%;
-    }
+
+@media screen and (max-width: 1200px) {
+  .agent-card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .agent-card {
+    width: 100%;
+  }
 }
 
 div {
-    border-radius: 50px;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    padding:0;
-    
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  padding: 0;
 }
